@@ -1,0 +1,7 @@
+/README.md
+/imports/ui/components/*/*.css
+/imports/ui/components/*/*.scss
+/imports/ui/pages/*/*.css
+/imports/ui/pages/*/*.scss
+/public/css/*
+

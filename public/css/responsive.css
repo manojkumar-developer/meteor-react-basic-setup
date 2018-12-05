@@ -1,0 +1,153 @@
+/* Max Width 1400px */
+@media (max-width: 1400px){
+	.hidden-md{
+		display: none;
+	}
+}
+/* Min Width 1200px */
+@media (min-width: 1200px){
+	.section-title p{
+		padding: 0 19rem;
+	}
+}
+/* Min Width 991px */
+@media (min-width: 991px){
+	.navbar-light .navbar-nav .nav-link {
+		line-height: 65px;
+	}
+	.navbar, .navbar .navbar-collapse, .navbar .navbar-collapse .navbar-nav{
+		height: 80px;
+	}
+	.navbar-light .navbar-nav .nav-link.btn, .navbar-light .navbar-nav .nav-link.btn span.btn-text, .donate-now .btn-custom span.btn-text{	
+		line-height: 15px;
+	}
+	.navbar-nav li.nav-item{
+		margin-left: 30px;
+	}
+	.section-title p {
+		padding: 0 15rem;
+		font-weight: normal;
+	}
+	.copyright p, .copyright li a{
+		margin-bottom: 0;
+	}
+	.table-responsive{
+		display: inline-table;
+	}	
+}
+/* Max Width 991px */
+@media (max-width: 991px){
+	.banner-slider .slider img{
+		margin-top: 3rem;
+	}
+	.margin-top-sm{
+		margin-top: 15px;
+		border-top: 1px solid #ececec;
+		padding-top: 7px;
+	}
+	.donate-now-img img{
+		width: 100%;
+	}
+	.footer-logo p{
+		margin-right: 0rem;
+	}
+	.charity-logos img{
+		margin-bottom: 30px;
+	}
+	.page-header .text-right{
+		text-align: left !important;
+	}
+	.page-header h3, .page-header button{
+		margin-bottom: 25px;
+	}
+	.charity-finder .page-header .search-charity-item, .charity-finder .page-header .select-rounded{
+		margin-top: 20px;
+	}
+}
+/* Max Width 767px */
+@media (max-width: 767px){
+	.charity-finder .sticky-top, .page-header.sticky-top {
+		position: inherit;
+	}
+	.top-banner-content img{
+		width: 100%;
+	}
+	.top-banner-content img, .top-banner-content .card-title, .top-banner-content .card-text{
+		margin-bottom: 20px;
+	}
+	.footer-bg img{
+		right:20px;
+	}
+	.table-responsive{
+		display: block;
+	}
+	.donate-option-title{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.top-banner button.red-bg{
+		margin-top: 20px;
+	}
+	.vertical-align-middle-md{
+		display:block;
+	}
+	.show-list{
+		margin-top: 30px;
+	}
+}
+/* Max Width 576px */
+@media (max-width: 576px){
+	.dashboard-main-title{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.dashboard .tk-credits{
+		text-align: left !important;
+	}
+	.form-msg-loader{
+		position: inherit;
+		margin-top: 20px;
+	}
+}
+/* Max Width 400px */
+@media (max-width: 400px){
+	.carousel-item img{
+		height: 50%;
+	}
+	a.navbar-brand img{
+		width: 200px;
+	}
+	.footer-bg img{
+		right:10px;
+	}
+	.custom-dialog h3 {
+		padding: 18px 24px 15px !important;
+	}
+	.custom-dialog > div > div{
+		width: 90% !important;
+	}
+	.custom-dialog .form-wrapper{
+		padding: 0px;
+	}	
+	form .non-cash-form .add-item,
+	form .non-cash-form .common-items{
+		padding: 30px 15px;
+	}
+	.login-box .login-buttons .forget-pwd-link {
+		line-height: 20px;
+	}
+	form label {
+		top: 20px !important;
+	}
+	.dialog-close {
+		position: absolute;
+		top: 25px;
+		right: 20px;
+	}
+	.myaccountforms-details {
+		padding: 15px 0px 9px;
+	}
+	.charity-finder .card-deck .row.width-100 {
+    	width: 109% !important;
+	}
+}
